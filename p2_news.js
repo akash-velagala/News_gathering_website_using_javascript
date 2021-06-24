@@ -10,7 +10,6 @@ xhr.onload = function () {
         console.log(articles);
         let newsHtml = "";
         articles.forEach(function(element, index) {
-            // console.log(element, index)
             let news = `<div class="card">
                             <div class="card-header" id="heading${index}">
                                 <h2 class="mb-0">
